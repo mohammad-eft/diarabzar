@@ -11,7 +11,7 @@
     <main class="w-full flex flex-col gap-10 justify-start items-center my-3 lg:my-5">
         <!-- hero -->
         <section
-                class="max-w-[1800px] w-full mx-auto xl:h-90 bg-[url('{{ asset('storage/' . $setting['heroBanner']) }}')] bg-cover bg-no-repeat bg-center lg:h-80 flex max-lg:flex-col xl:gap-20 lg:gap-15 gap-5 justify-start items-center bg-(--second-cream-color) max-lg:pb-5">
+                class="max-w-[1800px] w-full mx-auto xl:h-90 bg-[url('{{ asset('storage/' . $setting['heroBanner']) }}')] bg-cover bg-no-repeat bg-center lg:h-80 flex max-lg:flex-col xl:gap-20 lg:gap-15 gap-5 justify-start items-center bg-(--second-cream-color) max-lg:pb-5 relative after:absolute after:content-[''] after:w-full after:h-full after:top-0 after:right-0 after:bg-black/30 after:-z-10 z-1">
             <div class="lg:w-1/2 w-full h-full flex justify-center items-center">
                 <img src="{{ asset('storage/' . $setting['heroBanner']) }}" alt=""
                      class="w-full lg:h-full max-h-full hidden">
@@ -21,13 +21,13 @@
                         class="xl:w-9/12 lg:w-10/12 w-11/12 h-full flex flex-col gap-5 justify-center lg:items-start items-end">
                     <div
                             class="flex flex-col gap-2 justify-start items-end max-lg:items-center text-lg xl:text-4xl lg:text-4xl font-bold text-center lg:text-start">
-                        <h1 class="text-(--primary-text-color)">{{ $setting['heroTitle'] }}</h1>
+                        <h1 class="text-white">{{ $setting['heroTitle'] }}</h1>
 
                     </div>
-                    <p class="max-xl:text-sm w-2/3 max-lg:text-center text-(--secondary-text-color)">{{ $setting['heroSubtitle'] }}</p>
+                    <p class="max-xl:text-sm w-2/3 lg:w-full max-lg:text-center text-[#E5E7EB]">{{ $setting['heroSubtitle'] }}</p>
                     <div class="w-full flex lg:gap-6 gap-3 justify-between items-center">
                         <a href="{{ $setting['heroPrimaryButtonLink'] }}"
-                           class="w-1/2 lg:py-4 py-3 bg-(--purple-btn) xl:text-lg max-lg:text-sm text-white font-bold rounded-xl flex justify-center items-center">
+                           class="w-1/2 lg:py-4 py-3 bg-[#F5B82E] xl:text-lg max-lg:text-sm text-white font-bold rounded-xl flex justify-center items-center">
                             {{ $setting['heroPrimaryButton'] }}
                         </a>
                         <a href="{{ $setting['heroSecondaryButtonLink'] }}"
