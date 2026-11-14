@@ -1,5 +1,5 @@
 @extends('app.document')
-@section('title', 'دیارابزار | فروشگاه کتاب و لوازم تحریر')
+@section('title', 'دیارابزار | فروشگاه ابزار آلات ساختمانی')
 @section('content')
 
 
@@ -42,7 +42,7 @@
         <!-- hero -->
 
 
-
+        @if(count($packs)>0)
         <section class="max-w-[1800px] w-11/12 mx-auto">
             <div class="w-full mx-auto flex flex-col items-center">
                 <div class="w-full flex flex-col items-center">
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </section>
-
+        @endif
 
         <!-- category -->
         <!-- likly -->
