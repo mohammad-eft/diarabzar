@@ -9,7 +9,7 @@
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/tailwind.js') }}"></script>
 
-    <title>ورود | طبابوک</title>
+    <title>ورود | دیارابزار</title>
     <style>
         input {
             transition: all 0.3s ease;

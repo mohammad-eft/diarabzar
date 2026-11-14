@@ -1,10 +1,10 @@
 @extends('app.document')
-@section('title', 'طبابوک | سبد خرید')
+@section('title', 'دیارابزار | سبد خرید')
 @section('content')
         <!-- Header -->
         <header class="bg-white border-b border-gray-100">
             <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-                <a href="{{ route('home') }}" class="text-lg font-bold text-gray-800">طبابوک</a>
+                <a href="{{ route('home') }}" class="text-lg font-bold text-gray-800">دیارابزار</a>
                 {{-- <a href="#" class="text-sm text-gray-500 hover:text-gray-800 transition">ادامه خرید</a> --}}
             </div>
         </header>

@@ -1,5 +1,5 @@
 @extends('app.document')
-@section('title', 'طبابوک | فروشگاه کتاب و لوازم تحریر')
+@section('title', 'دیارابزار | فروشگاه کتاب و لوازم تحریر')
 @section('content')
 
 

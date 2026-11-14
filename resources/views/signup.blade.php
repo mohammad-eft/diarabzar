@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css">
-    <title>ثبت نام | طبابوک</title>
+    <title>ثبت نام | دیارابزار</title>
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/tailwind.js') }}"></script>
     <style>

@@ -1,5 +1,5 @@
 @extends('app.document')
-@section('title', 'طبابوک | درباره ما')
+@section('title', 'دیارابزار | درباره ما')
 @section('content')
    
     <style>

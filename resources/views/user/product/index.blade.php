@@ -1,5 +1,5 @@
 @extends('app.document')
-@section('title', 'طبابوک | همه محصولات')
+@section('title', 'دیارابزار | همه محصولات')
 @section('content')
     <script src="{{ asset('js/filters.js') }}"></script>
     <main class="max-w-[1280px] mx-auto my-20 md:my-20 px-3 md:px-5">
