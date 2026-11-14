@@ -159,21 +159,7 @@
 
                     <div id="parentCheckout"></div>
 
-                    {{-- <div class="p-3 border-b border-gray-200 text-sm">
-                        <div class="flex justify-between mb-2">
-                            <span class="font-bold">مرسوله</span>
-                        </div>
-                        <div class="space-y-2 text-gray-600">
-                            <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="radio" name="onlinePayment" value="0" class="text-blue-600 focus:ring-(--bg-dark-green)" checked>
-                                <span>پرداخت درب منزل</span>
-                            </label>
-                            <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="radio" name="onlinePayment" value="1" class="text-blue-600 focus:ring-(--bg-dark-green)">
-                                <span>پرداخت آنلاین</span>
-                            </label>
-                        </div>
-                    </div> --}}
+              
 
                     <div class="flex justify-between p-3 border-b border-gray-200 text-sm font-bold">
                         <span>مجموع</span>
@@ -202,11 +188,10 @@
                                         <div
                                             class="size-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center border border-white/30">
                                             <span class="text-sm font-bold text-white/90">
-                                                <img src="{{ asset('img/bank.png') }}" class="size-10 rounded-full" alt="">
+                                                <img src="{{ asset('img/meli.png') }}" class="size-10 rounded-full" alt="">
                                             </span>
                                         </div>
-                                        <span class="text-sm font-semibold tracking-wide text-white/90">بانک مهر
-                                            ایران</span>
+                                        <span class="text-sm font-semibold tracking-wide text-white/90">بانک  ملی</span>
                                     </div>
                                     <div
                                         class="w-10 h-8 rounded-md bg-gradient-to-br from-amber-200 to-amber-400/80 border border-amber-300/50 shadow-inner flex items-center justify-center">
@@ -229,10 +214,28 @@
                                             کارت</p>
                                         <div
                                             class="card-number text-base sm:text-lg md:text-xl font-medium text-white/95 drop-shadow-sm">
-                                            6063 7311 2068 4353
+                                            6037 9975 8022 0607
                                         </div>
                                     </div>
                                     <svg class="w-6 h-6 cursor-pointer text-white" onclick="copyText('6063 7311 2068 4353')" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                        viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 8v3a1 1 0 0 1-1 1H5m11 4h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-7a1 1 0 0 0-1 1v1m4 3v10a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-7.13a1 1 0 0 1 .24-.65L7.7 8.35A1 1 0 0 1 8.46 8H13a1 1 0 0 1 1 1Z" />
+                                    </svg>
+
+                                </div>
+                                <div class="w-full flex items-end justify-between">
+                                    <div class="mt-3 sm:mt-4">
+                                        <p class="text-[10px] sm:text-xs text-white/60 uppercase tracking-wider mb-0.5">
+                                            شماره
+                                            حساب</p>
+                                        <div
+                                            class="card-number text-base sm:text-lg md:text-xl font-medium text-white/95 drop-shadow-sm">
+                                            0110847606002
+                                        </div>
+                                    </div>
+                                    <svg class="w-6 h-6 cursor-pointer text-white" onclick="copyText('0110847606002')" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke="currentColor" stroke-linejoin="round" stroke-width="2"
@@ -250,10 +253,10 @@
                                         <div
                                             class="sheba-number flex items-center gap-1 text-[11px] sm:text-sm md:text-base font-medium text-white/95">
                                             <span class="text-white/70 font-sans">IR</span>
-                                            <span class="text-sm">67 0600 2002 7001 1408 8140 01</span>
+                                            <span class="text-sm">45 0170 0000 0011 0847 6060 02</span>
                                         </div>
                                     </div>
-                                    <svg class="w-6 h-6 cursor-pointer text-white" onclick="copyText('67 0600 2002 7001 1408 8140 01')" aria-hidden="true"
+                                    <svg class="w-6 h-6 cursor-pointer text-white" onclick="copyText('450170000000110847606002')" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke="currentColor" stroke-linejoin="round" stroke-width="2"
@@ -267,14 +270,14 @@
                                     <div>
                                         <p class="text-[9px] sm:text-[10px] text-white/50 uppercase tracking-wider">به نام
                                         </p>
-                                        <p class="text-sm sm:text-base font-medium text-white/90 tracking-wide">عباس ملکی
+                                        <p class="text-sm sm:text-base font-medium text-white/90 tracking-wide">امیر سلمانزاده اسبق
                                         </p>
                                     </div>
-                                    <div class="text-left">
+                                    {{-- <div class="text-left">
                                         <p class="text-[9px] sm:text-[10px] text-white/50 uppercase tracking-wider">تاریخ
                                             انقضا</p>
                                         <p class="text-sm sm:text-base font-medium text-white/90 tracking-wider">۱۲/۲۸</p>
-                                    </div>
+                                    </div> --}}
                                     <div class="flex items-center gap-1 opacity-80">
                                         <div
                                             class="w-6 h-6 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center border border-white/20">
