@@ -313,7 +313,7 @@
                          src="{{ asset('storage/'.$setting['rightBanner']) }}" alt="">
                 </a>
                 <div class="lg:w-7/12 w-full h-full relative flex max-lg:flex-col items-center gap-3 bg-(--cream-color) rounded-xl">
-                    <img class="h-full w-1/2 rounded-r-xl object-cover max-h-40"
+                    <img class="h-full w-1/2 rounded-r-xl object-cover max-h-full"
                          src="{{ asset('storage/'.$setting['leftBanner']) }}" alt="">
                     <div class="lg:w-1/2 w-full flex flex-col gap-2 lg:items-start items-center p-3">
                         <span class="lg:text-xl text-md font-bold text-(--primary-text-color)">{{ $setting['leftBannerTitle'] }}</span>
