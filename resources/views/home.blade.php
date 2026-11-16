@@ -306,14 +306,14 @@
         </section>
 
 
-        <section class="w-full flex justify-center ">
+        <section class="w-full flex justify-center">
             <div class="max-w-[1800px] w-11/12 mx-auto lg:h-60 flex max-lg:flex-col justify-between gap-3">
                 <a href="{{ $setting['rightBannerLink'] }}" class="lg:w-5/12 w-full rounded-2xl h-full bg-(--bg-dark-green) flex justify-center items-center">
                     <img class="w-full h-full rounded-xl"
                          src="{{ asset('storage/'.$setting['rightBanner']) }}" alt="">
                 </a>
                 <div class="lg:w-7/12 w-full h-full relative flex max-lg:flex-col items-center gap-3 bg-(--cream-color) rounded-xl">
-                    <img class="h-full w-1/2 rounded-r-xl object-cover max-h-full"
+                    <img class="h-full w-full lg:w-1/2 rounded-r-xl object-cover max-h-full"
                          src="{{ asset('storage/'.$setting['leftBanner']) }}" alt="">
                     <div class="lg:w-1/2 w-full flex flex-col gap-2 lg:items-start items-center p-3">
                         <span class="lg:text-xl text-md font-bold text-(--primary-text-color)">{{ $setting['leftBannerTitle'] }}</span>
