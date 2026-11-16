@@ -17,8 +17,8 @@
 
     .diar-hero {
         background:
-            radial-gradient(circle at 10% 20%, rgba(232, 111, 36, .13), transparent 35%),
-            linear-gradient(135deg, #101d2b 0%, #1b2c3d 65%, #24394a 100%);
+            radial-gradient(circle at 10% 20%, rgba(237, 23, 31, .13), transparent 35%),
+            linear-gradient(135deg, #071b49 0%, #102b61 65%, #17428b 100%);
     }
 
     .diar-image {
@@ -35,7 +35,7 @@
         display: block;
         width: 48px;
         height: 3px;
-        background: #ed792e;
+        background: #ed171f;
         border-radius: 20px;
         margin: 12px auto 0;
     }
@@ -46,17 +46,17 @@
 
     .diar-card:hover {
         transform: translateY(-6px);
-        border-color: rgba(237, 121, 46, .4);
-        box-shadow: 0 18px 35px rgba(15, 30, 45, .08);
+        border-color: rgba(237, 23, 31, .4);
+        box-shadow: 0 18px 35px rgba(7, 27, 73, .08);
     }
 
     .diar-icon {
-        background: #fff1e7;
-        color: #e97830;
+        background: #edf2ff;
+        color: #1455b8;
     }
 
     .diar-orange {
-        color: #ed792e;
+        color: #ed171f;
     }
 
     .diar-bg {
@@ -64,7 +64,7 @@
     }
 
     .diar-cta {
-        background: linear-gradient(120deg, #172738, #263c50);
+        background: linear-gradient(120deg, #071b49, #153b7a);
     }
 
     @media(max-width: 768px) {
@@ -74,10 +74,10 @@
     }
 </style>
 
-<div class="bg-white text-slate-800">
+<div class="bg-white text-slate-800 mt-3">
 
     {{-- Top Bar --}}
-    <div class="bg-[#ed792e] text-white text-center text-xs sm:text-sm py-2 px-4">
+    <div class="bg-[#ed171f] text-white text-center text-xs sm:text-sm py-2 px-4">
         دیار ابزار؛ همراه مطمئن شما در انتخاب ابزار مناسب
     </div>
 
@@ -90,15 +90,15 @@
                 <div class="py-16 sm:py-20 lg:py-24">
 
                     <div class="flex items-center gap-3 mb-6">
-                        <span class="w-10 h-[3px] bg-[#ed792e] rounded-full"></span>
-                        <span class="text-orange-400 font-bold text-sm">
+                        <span class="w-10 h-[3px] bg-[#ed171f] rounded-full"></span>
+                        <span class="text-red-400 font-bold text-sm">
                             آشنایی با دیار ابزار
                         </span>
                     </div>
 
                     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.5]">
                         ابزار درست،
-                        <span class="text-[#ed792e]">شروع یک کار حرفه‌ای</span>
+                        <span class="text-[#ed171f]">شروع یک کار حرفه‌ای</span>
                     </h1>
 
                     <p class="mt-6 text-sm sm:text-base leading-9 text-slate-300 max-w-xl">
@@ -116,7 +116,7 @@
 
                     <div class="mt-9 flex flex-wrap gap-3">
                         <a href="{{ url('/') }}"
-                           class="px-7 py-3.5 rounded-xl bg-[#ed792e] text-white font-bold hover:bg-orange-600 transition">
+                           class="px-7 py-3.5 rounded-xl bg-[#ed171f] text-white font-bold hover:bg-red-700 transition">
                             مشاهده فروشگاه
                         </a>
 
@@ -136,12 +136,12 @@
                         class="absolute inset-0 w-full h-full object-cover"
                     >
 
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#101d2b]/80 via-transparent to-transparent"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#071b49]/80 via-transparent to-transparent"></div>
 
                     <div class="absolute bottom-6 right-6 left-6 diar-glass rounded-2xl p-5 shadow-xl">
 
                         <div class="flex items-center gap-4">
-                            <div class="w-12 h-12 rounded-xl bg-[#fff1e7] flex items-center justify-center text-2xl">
+                            <div class="w-12 h-12 rounded-xl bg-[#edf2ff] flex items-center justify-center text-2xl">
                                 🔧
                             </div>
 
@@ -169,13 +169,13 @@
             <div class="container-x grid lg:grid-cols-2 gap-12 items-center">
 
                 <div>
-                    <span class="text-[#ed792e] font-bold text-sm">
+                    <span class="text-[#ed171f] font-bold text-sm">
                         ما چه کاری انجام می‌دهیم؟
                     </span>
 
                     <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-4 leading-relaxed">
                         فقط فروش ابزار نیست؛
-                        <span class="text-[#ed792e]">کمک به انتخاب بهتر است.</span>
+                        <span class="text-[#ed171f]">کمک به انتخاب بهتر است.</span>
                     </h2>
 
                     <p class="mt-5 text-sm sm:text-base leading-9 text-slate-600">
@@ -205,7 +205,7 @@
                         </p>
                     </div>
 
-                    <div class="rounded-3xl bg-[#fff4ec] p-6 mt-8">
+                    <div class="rounded-3xl bg-[#eef3ff] p-6 mt-8">
                         <div class="text-3xl mb-5">🔨</div>
                         <h3 class="font-extrabold text-slate-800">
                             ابزارهای دستی
@@ -215,7 +215,7 @@
                         </p>
                     </div>
 
-                    <div class="rounded-3xl bg-[#fff4ec] p-6">
+                    <div class="rounded-3xl bg-[#eef3ff] p-6">
                         <div class="text-3xl mb-5">📐</div>
                         <h3 class="font-extrabold text-slate-800">
                             ابزار اندازه‌گیری
@@ -340,11 +340,11 @@
 
             <div class="container-x">
 
-                <div class="rounded-[30px] overflow-hidden bg-[#172738] text-white grid lg:grid-cols-2">
+                <div class="rounded-[30px] overflow-hidden bg-[#071b49] text-white grid lg:grid-cols-2">
 
                     <div class="p-8 sm:p-12 lg:p-14 flex flex-col justify-center">
 
-                        <span class="text-[#ed792e] font-bold text-sm">
+                        <span class="text-[#ed171f] font-bold text-sm">
                             نگاه ما به آینده
                         </span>
 
@@ -366,7 +366,7 @@
                         </p>
 
                         <a href="{{ url('/') }}"
-                           class="mt-7 self-start rounded-xl bg-[#ed792e] px-6 py-3 font-bold text-white hover:bg-orange-600 transition">
+                           class="mt-7 self-start rounded-xl bg-[#ed171f] px-6 py-3 font-bold text-white hover:bg-red-700 transition">
                             همراه ما باشید
                         </a>
 
@@ -380,7 +380,7 @@
                             class="absolute inset-0 w-full h-full object-cover"
                         >
 
-                        <div class="absolute inset-0 bg-gradient-to-l from-transparent to-[#172738]/30"></div>
+                        <div class="absolute inset-0 bg-gradient-to-l from-transparent to-[#071b49]/30"></div>
 
                     </div>
 
@@ -488,7 +488,7 @@
 
                 <div class="diar-cta rounded-[30px] p-8 sm:p-14 text-center relative overflow-hidden">
 
-                    <div class="absolute -top-20 -right-20 w-64 h-64 bg-[#ed792e]/10 rounded-full blur-3xl"></div>
+                    <div class="absolute -top-20 -right-20 w-64 h-64 bg-[#ed171f]/10 rounded-full blur-3xl"></div>
 
                     <div class="relative ">
 
@@ -506,7 +506,7 @@
                         <div class="mt-8 flex flex-wrap justify-center gap-3">
 
                             <a href="{{ url('/') }}"
-                               class="px-8 py-3.5 rounded-xl bg-[#ed792e] text-white font-bold hover:bg-orange-600 transition">
+                               class="px-8 py-3.5 rounded-xl bg-[#ed171f] text-white font-bold hover:bg-red-700 transition">
                                 ورود به فروشگاه
                             </a>
 
