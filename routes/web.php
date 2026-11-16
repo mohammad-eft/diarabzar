@@ -48,9 +48,12 @@ Route::get('/test', function(){
     //     ]);
     // }
 
-    Schema::table('packs', function(Blueprint $table){
-        $table->string('count')->default(0)->after('image');
-    });
+    // Schema::table('packs', function(Blueprint $table){
+    //     $table->string('count')->default(0)->after('image');
+    // });
+
+    $test = DB::connection('wordpress')->table('posts')->count();
+    dd($test);
 });
 
 Route::get('/', [SettingController::class, 'home'])->name('home');
