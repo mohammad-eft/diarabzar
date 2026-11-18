@@ -232,6 +232,7 @@ function createProductCard(product) {
 // --------------------------------------------------
 
 function getFilters() {
+    
 
     productsElement.classList.add('opacity-50', 'pointer-events-none');
 

@@ -529,10 +529,10 @@
 
 
                 <form action="{{ route('search.page') }}"
-                      method="POST"
+                      method="GET"
                       class="w-10/12 max-sm:w-full flex justify-center items-center">
 
-                    @csrf
+            
 
                     <div class="w-full py-2 flex justify-between items-center px-4 max-sm:px-2 cart_shdow bg-white rounded-lg">
 
