@@ -52,7 +52,7 @@ Route::get('/test', function(){
     //     $table->string('count')->default(0)->after('image');
     // });
 
-    $test = DB::connection('wordpress')->table('posts')->count();
+    $test = product::count();
     dd($test);
 });
 
