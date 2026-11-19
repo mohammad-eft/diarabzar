@@ -17,8 +17,16 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 use App\Models\product;
+use App\Models\category;
 use App\Models\User;
 use App\Models\role_user;
+
+Route::get('/setCat', function(){
+    category::create([
+        'title'=>'بدون دسته بندی',
+        'parent_id'=>0
+    ]);
+});
 
 Route::get('/test', function(){
     // $dateTime = explode(' ', verta());
